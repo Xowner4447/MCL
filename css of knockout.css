@@ -1,0 +1,37 @@
+::-webkit-scrollbar{
+    display: none;
+  }
+  
+  /* Googlefont Poppins CDN Link */
+  @font-face {
+    font-family: IS;
+    src: url(/fonts/iransansweb.woff) format(woff);
+  }
+  *{
+      direction: rtl;
+      font-family: IS;
+      box-sizing: border-box;
+      transition:0.4s ease;
+  }
+  html{
+    height: 100%;
+    margin: 0;
+  }
+  body{
+      margin: 0;
+      height: 100%;
+      background: linear-gradient(to right, #0F3443 , #006c69);
+  }
+  img {
+      width: 100%;
+      height: auto;
+  }
+  .error{
+    text-align: center;
+    color: white;
+    margin: 10px;
+    
+  }
+  .error h1{
+    font-size: 20px;
+  }
