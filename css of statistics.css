@@ -5,7 +5,7 @@
   /* Googlefont Poppins CDN Link */
   @font-face {
     font-family: IS;
-    src: url(/fonts/iransansweb.woff) format(woff);
+    src: url(iransansweb.woff) format(woff);
   }
   *{
       direction: rtl;
